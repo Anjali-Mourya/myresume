@@ -1,0 +1,64 @@
+.myPic{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.main{
+  border: 1px solid black;
+}
+.name{
+  color: rgb(41, 41, 73);
+  margin-bottom: 2rem;
+}
+
+.profile i{
+  background-color: rgb(41, 41, 73);
+  color: #fff;
+}
+.profile a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.location{
+  color: black;
+  font-weight: 600;
+}
+.location,.phone,.email,.git{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sum{
+  color: rgb(41, 41, 73);
+  text-decoration: overline;
+}
+.para{
+   color: rgb(28, 27, 27); 
+   font-weight: 500;
+
+}
+.skill ul li{
+  color: rgb(28, 27, 27);
+  font-weight: 500;
+}
+.fre{
+  margin-left: 20px;
+}
+.project a{
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 500;
+}
+.project p{
+  font-weight: 800;
+}
+.sum{
+  margin-left: 20px;
+}
+
+@media  only screen and (max-width:500px){
+  .para{
+    margin-left: 20px;
+  }
+}
